@@ -1,0 +1,206 @@
+#index {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    .content {
+        margin: 0 auto;
+        overflow: hidden;
+        .marketing {
+            width: 1000px;
+            margin: 0px auto;
+            text-align: center;
+            h2 {
+                margin-top: 50px;
+                position: relative;
+                span:after {
+                    position: absolute;
+                    left: 50%;
+                    bottom: -5px;
+                    content: '';
+                    height: 5px;
+                    width: 36px;
+                    background: #ff5c02;
+                    transform: translateX(-50%);
+                }
+            }
+            p {
+                margin: 15px 0;
+                color: #a9acad;
+            }
+            .part {
+                width: 100%;
+                div {
+                    display: inline-block;
+                    width: 33.3%;
+                    position: relative;
+                    dl {
+                        display: inline-block;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: #fff;
+                        transition: all 1s ease;
+                        cursor: pointer;
+                        dt {
+                            width: 100%;
+                            margin-top: 20px;
+                            i {
+                                display: block;
+                                width: 150px;
+                                height: 150px;
+                                line-height: 150px;
+                                border: 2px solid #d6d8d9;
+                                border-radius: 50%;
+                                font-size: 80px;
+                                color: #ff5c02;
+                                margin: 0 auto;
+                            }
+                        }
+                        dd {
+                            display: block;
+                            width: 100%;
+                            padding: 10px 0;
+                            p {
+                                margin: 0;
+                                color: #333;
+                                font-weight: bold;
+                                font-size: 18px;
+                            }
+                            p:nth-child(2) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .info {
+                        content: '';
+                        width: 210px;
+                        height: 210px;
+                        background: #f6f6f6;
+                        opacity: 1;
+                        margin-top: 18px;
+                        border-radius: 2px;
+                        h3 {
+                            margin-top: 20px;
+                        }
+                        p {
+                            padding: 0 5px;
+                            letter-spacing: 1.2px;
+                            text-align: left;
+                            color: #333;
+                        }
+                    }
+                    dl:hover {
+                        opacity: 0;
+                        transition: all 1s ease;
+                    }
+                }
+            }
+        }
+        .team {
+            width: 100%;
+            max-width: 1920px;
+            background: #f6f6f6;
+            margin: 50px auto;
+            .content {
+                width: 1000px;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 20px;
+                h2 {
+                    margin-top: 50px;
+                    position: relative;
+                    span:after {
+                        position: absolute;
+                        left: 50%;
+                        bottom: -5px;
+                        content: '';
+                        height: 5px;
+                        width: 36px;
+                        background: #ff5c02;
+                        transform: translateX(-50%);
+                    }
+                }
+                p {
+                    margin: 15px 0;
+                    color: #a9acad;
+                }
+                p:nth-child(3) {
+                    margin: 0 auto;
+                    width: 250px;
+                }
+                dl {
+                    display: inline-block;
+                    width: 320px;
+                    margin: 0 6.5px;
+                    background: #f7e3d2;
+                    dt {
+                        img {
+                            width: 320px;
+                            height: 320px;
+                        }
+                    }
+                    dd {
+                        overflow: hidden;
+                        width: 100%;
+                        background: #233036;
+                        h3 {
+                            margin-top: 10px;
+                            color: #fff;
+                        }
+                        p {
+                            margin: 5px 0;
+                        }
+                        p:nth-child(3) {
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+                dl:nth-child(2) {
+                    position: relative;
+                    dd {
+                        position: absolute;
+                        bottom: 324px;
+                    }
+                    dt {
+                        position: absolute;
+                        bottom: 0px;
+                        background: #f7e3d2;
+                    }
+                }
+            }
+        }
+        .case {
+            width: 100%;
+            max-width: 1920px;
+            margin: 50px auto;
+            .content {
+                width: 1000px;
+                margin: 0 auto;
+                text-align: center;
+                h2 {
+                    margin-top: 50px;
+                    position: relative;
+                    span:after {
+                        position: absolute;
+                        left: 50%;
+                        bottom: -5px;
+                        content: '';
+                        height: 5px;
+                        width: 36px;
+                        background: #ff5c02;
+                        transform: translateX(-50%);
+                    }
+                }
+                p {
+                    margin: 15px 0;
+                    color: #a9acad;
+                }
+                p:nth-child(3) {
+                    margin: 0 auto;
+                    width: 250px;
+                }
+            }
+        }
+    }
+}

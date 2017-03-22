@@ -1,0 +1,85 @@
+#Introduction {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    .IntroImg {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        .imgPro {
+            width: 100%;
+            max-width: 1920px;
+        }
+        .comContent {
+            width: 1000px;
+            margin: 40px auto;
+            h2 {
+                width: 100%;
+                text-align: center;
+                margin: auto;
+            }
+            .esmall {
+                font-size: 14px;
+            }
+            .part1 {
+                .titleStyle {
+                    background: #ff5c02;
+                    width: 200px;
+                    margin: 0 auto;
+                    color: #fff;
+                    text-align: center;
+                }
+                p {
+                    margin: 10px 0;
+                }
+                ul {
+                    li {
+                        width: 100%;
+                        margin-top: 40px;
+                        position: relative;
+                        h3 {
+                            background: #fa7703;
+                            width: 200px;
+                            text-align: center;
+                            color: #fff;
+                        }
+                        h3:after {
+                            content: '';
+                            width: 200px;
+                            height: 27px;
+                            background: #ffbc81;
+                            position: absolute;
+                            left: 5px;
+                            top: 5px;
+                            z-index: -1;
+                        }
+                        span {
+                            display: inline-block;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            .part2 {
+                margin-top: 50px;
+                .titleStyle {
+                    background: #ff5c02;
+                    width: 200px;
+                    margin: 0 auto;
+                    color: #fff;
+                    text-align: center;
+                }
+                ul {
+                    margin: 30px auto;
+                    li {
+                        width: 50%;
+                        display: inline-block;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

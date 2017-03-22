@@ -1,0 +1,58 @@
+#footer {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #ff5c02;
+    .content {
+        width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 15px 0;
+        .esmall {
+            font-size: 14px;
+        }
+        span {
+            width: 37%;
+            overflow: hidden;
+            float: left;
+            color: #fff;
+            margin-bottom: 50px;
+            ul {
+                li {
+                    margin-top: 15px;
+                    i {
+                        margin-top: 50px;
+                        font-size: 40px;
+                    }
+                }
+                li:nth-child(3) {
+                    margin-top: 0;
+                }
+                li:nth-child(4) {
+                    width: 50px;
+                    height: 5px;
+                    background: #fff;
+                    margin: 0;
+                    margin-top: 5px;
+                }
+                li:nth-child(5) {
+                    margin-top: 5px;
+                }
+                li:nth-child(6) {
+                    margin-top: 5px;
+                }
+            }
+        }
+        span:nth-child(1) {
+            width: 30%;
+            img {
+                float: left;
+                margin-top: 50px;
+            }
+        }
+        span:nth-child(2) {
+            width: 33%;
+        }
+        div {}
+    }
+}
